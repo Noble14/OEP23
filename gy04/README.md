@@ -1,8 +1,10 @@
 # 4. gyakorlat
 
 hozzunk létre command line-ból c# projekteket
+
 releváns parancsok:
-[sln](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln) [new](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new)
+- [sln](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln) 
+- [new](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new)
 
 ```powershell
 dotnet new sln --output Cactus
