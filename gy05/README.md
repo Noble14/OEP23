@@ -1,6 +1,8 @@
 # 5. gyakorlat
 
-
+## Programnyelvi kompetenciák:  
+- Inputfile osztály
+- 
 
 ## Feladatok
 1. Számoljuk ki egy számítástechnikai szaküzlet napi bevételét az aznapi forgalom alapján. A forgalmat a kiadott számlák mutatják, amelyeket egy szöveges állományban (szekvenciális inputfájl) rögzítettek. Az állomány minden sora egy-egy számla adatait tartalmazza: a vásárló nevét és az általa vásárolt termékek (cikkszám és ár párok) sorozatát.  [input](invoiceinput.txt)
