@@ -6,7 +6,7 @@ internal class Program
     {
 
         Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");        
-        Console.WriteLine("Hello, World!");
+        //Console.WriteLine("Hello, World!");
         InFile inf = new InFile("input.txt");
         while (inf.ReadFisher(out Fisher f))
         {
