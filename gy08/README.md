@@ -12,6 +12,8 @@
 
 [tech.txt](.\Shop\Shop\inputs\tech.txt)
 
+[customer.txt](.\Shop\Shop\inputs\customer.txt)
+
 ### Elvárt kimenet:
 ```
 Minta_Bela vásárló megvette az alábbi árukat: 
