@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Security.Principal;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
