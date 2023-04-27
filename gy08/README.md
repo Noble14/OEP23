@@ -8,11 +8,11 @@
 ![hello](./fel1uml.png)
 
 ### Input:
-[food.txt](.\Shop\Shop\inputs\food.txt)
+[food.txt](./Shop/Shop/inputs/food.txt)
 
-[tech.txt](.\Shop\Shop\inputs\tech.txt)
+[tech.txt](./Shop/Shop/inputs/tech.txt)
 
-[customer.txt](.\Shop\Shop\inputs\customer.txt)
+[customer.txt](./Shop/Shop/inputs/customer.txt)
 
 ### Elvárt kimenet:
 ```
