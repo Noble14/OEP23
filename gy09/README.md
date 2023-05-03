@@ -6,3 +6,9 @@
 
 terv:
 ![image](./img/fel1.png)
+
+## érésidő
+
+|      | rózsa | tulipán | szegfű | burgonya | borsó | hagyma |
+|------|-------|---------|--------|----------|-------|--------|
+| érés | 8     | 7       | 10     | 5        | 3     | 4      |
