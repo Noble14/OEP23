@@ -15,7 +15,7 @@ namespace Garden
             Console.Write("A betakarithato parcellak azonositoi: ");
             foreach (int i in gardener.garden.CanHarvest(6))
             {
-                Console.Write($"{i} ");
+                Console.Write($"{i} "); // 2 4
             }
             Console.WriteLine();
         }
