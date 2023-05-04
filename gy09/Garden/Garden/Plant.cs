@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Garden
+﻿namespace Garden
 {
     public class Plant
     {
@@ -65,6 +58,34 @@ namespace Garden
         public static Pea Instance()
         {
             if (instance ==null) instance = new();
+            return instance;
+        }
+    }
+
+    public class Onion : Zöldség {
+
+        private static Onion? instance =null;
+        private Onion() : base (4) {}
+        public static Onion Instance() {
+            if (instance == null) instance = new();
+            return instance;
+        }
+    }
+
+    public class Tulipe : Virág {
+        private static Tulipe? instance = null;
+        private Tulipe () : base(7)  {}
+        public static Tulipe Instance() {
+            if (instance == null) instance = new Tulipe();
+            return instance;
+        }
+    }
+
+    public class Szegfű : Virág {
+        private static Szegfű? instance = null;
+        private Szegfű() : base(10) {}
+        public static Szegfű Instance() {
+            if (instance == null) instance = new Szegfű();
             return instance;
         }
     }
