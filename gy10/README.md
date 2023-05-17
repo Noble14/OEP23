@@ -12,7 +12,7 @@ terv:
 
 ![image](./img/vadaszat.png)
 
-[input.txt](./input/input.txt)
+[input.txt](./Vadaszat/Vadaszat/input.txt)
 
 2. StarWars: A bukott légiók útban vannak a Birodalom központi naprendszere felé Horus Lupercal vezetésével, hogy megdöntsék a Császár hatalmát. Ahogy az áruló sereg közeleg, a birodalomhoz hűséges bolygók egymás után borulnak sötétségbe a naprendszer körül. Az utolsó reményt azok a hűséges csillaghajók jelentik, amelyek a naprendszer bolygóinál gyülekeznek … 
    
@@ -29,3 +29,7 @@ Három fajta csillaghajó van: faltörő, partraszálló, és lézerező. Egy cs
 terv: 
 
 ![image](./img/starwars.png)
+
+
+[input.txt](./StarWars/StarWars/input.txt)
+[solarsystem.txt](./StarWars/StarWars/solarsystem.txt)
