@@ -1,0 +1,5 @@
+Doborgaz
+Karcsi  ponty   1.5
+Karcsi  ponty   2.8
+Karcsi  harcsa  8.0
+Peti    harcsa  20.0

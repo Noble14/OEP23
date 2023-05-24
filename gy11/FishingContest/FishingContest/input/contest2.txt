@@ -1,0 +1,4 @@
+Feher-to
+Karcsi  keszeg  0.8
+Karcsi  harcsa  80.5
+Peti    keszeg  0.8
