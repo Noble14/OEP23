@@ -10,7 +10,7 @@ namespace Contest
             Organization org = new();
             try
             {
-                TextFileReader reader = new("contests.txt");
+                TextFileReader reader = new("./input/contests.txt");
 
                 reader.ReadLine(out string line);
                 char[] separators = new char[] { ' ', '\t' };
