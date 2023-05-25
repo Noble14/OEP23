@@ -29,6 +29,25 @@ namespace Contest
 
             return fisher;
         }
+        
+        public bool BestContest(out Contest? contest){
+            bool l=false;
+            contest = null; 
+            foreach (Contest con in Contests)
+            {
+                if (!con.AllCatfish())
+                    continue;
+                if (!l){
+                    l = true;
+                    contest = con;
+                }
+                else {
+                    if (contest!.SumValue() < con.SumValue())
+                        contest = con;                    
+                }
+            }
+            return l;
+        }
 
     }
 

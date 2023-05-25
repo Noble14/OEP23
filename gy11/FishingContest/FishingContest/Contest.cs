@@ -2,12 +2,12 @@ namespace Contest {
 
 public class Contest {
     public readonly Organization Org;
-    public readonly String Name;
+    public readonly String Place;
     public readonly String Start;
     public List<Fisher> Participants {get; private set;}
     public Contest(string Name, string kezdes, Organization org)
     {
-        this.Name = Name;
+        this.Place = Name;
         Org = org;
         Start = kezdes;
         Participants = new();
@@ -17,6 +17,22 @@ public class Contest {
         Fisher? fisher = Org.Member(name);
         if (!Participants.Contains(fisher!))
             Participants.Add(fisher!);
+    }
+    public double SumValue(){
+        double sum = 0; 
+        foreach (Fisher fisher in Participants)
+        {
+            sum+=fisher.SumValue(this);   
+        }
+        return sum;
+    }
+    public bool AllCatfish(){
+        foreach (Fisher fisher in Participants)
+        {
+            if (!fisher.CathcedCatfish(this))
+                return false;
+        }
+        return true;
     }
 }
 

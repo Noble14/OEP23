@@ -51,7 +51,7 @@ namespace Contest
                     }
                 }
 
-                if (org.BestContest(out Contest contest1)) Console.WriteLine($"A legjobb verseny: {contest1.Place}");
+                if (org.BestContest(out Contest? contest1)) Console.WriteLine($"A legjobb verseny: {contest1!.Place}");
                 else Console.WriteLine("Nincs olyan verseny, ahol mindenki fogott harcsat.");
             }
             catch (System.IO.FileNotFoundException)

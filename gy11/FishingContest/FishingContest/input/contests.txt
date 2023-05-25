@@ -1,4 +1,4 @@
 Karcsi Peti
-contest1.txt
-contest2.txt
-contest3.txt
+input/contest1.txt
+input/contest2.txt
+input/contest3.txt
