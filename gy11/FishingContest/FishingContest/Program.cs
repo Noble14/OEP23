@@ -33,7 +33,7 @@ namespace Contest
                         reader1.ReadString(out string fishname);
                         reader1.ReadDouble(out double weight);
 
-                        Fisher fisher = org.Member(fishername);
+                        Fisher? fisher = org.Member(fishername);
                         if (null == fisher)
                         {
                             Console.WriteLine($"{fishername} versenyezne, de nem tag");
